@@ -123,6 +123,8 @@ Complementarmente, a avaliação das fontes reforça que, embora o ERP ofereça 
 Diante disso, observa-se que, apesar da existência de um volume significativo de dados, sua utilização ainda é limitada pela fragmentação e pela qualidade heterogênea das fontes.
 Nesse contexto, justifica-se a implementação de uma solução de BI, baseada em processos de ETL e na consolidação dos dados em um data warehouse, possibilitando a padronização, integração e confiabilidade das informações. Como resultado, espera-se maior eficiência na geração de indicadores e dashboards, promovendo suporte mais ágil e assertivo à tomada de decisão estratégica.
 
+---
+
 ## 2.3 Especificação de Requisitos Informacionais
 
 **Objetivo:** Este item tem como objetivo especificar os requisitos informacionais necessários para subsidiar a construção da solução de Business Intelligence, a partir das necessidades estratégicas identificadas no Key Intelligence Topic (KIT) e nas Key Intelligence Questions (KIQs).
@@ -197,8 +199,6 @@ Embora esse mecanismo permita algum grau de análise comercial, apresenta limita
 
 **Armazenamento Local:** Compõem ainda o inventário de dados os arquivos armazenados nos computadores dos colaboradores, que incluem relatórios exportados do ERP em versões históricas, planilhas auxiliares de acompanhamento e documentos diversos. Essa fonte apresenta confiabilidade variável e carece de centralização, o que eleva o risco de inconsistências decorrentes do uso simultâneo de versões diferentes de um mesmo arquivo.
 
----
-
 ## 2.4.1 Avaliação da Qualidade e Estrutura dos Dados
 
 A análise das fontes identificadas permitiu avaliar os dados quanto à estrutura, confiabilidade, atualização e acessibilidade.
@@ -214,8 +214,6 @@ A análise das fontes identificadas permitiu avaliar os dados quanto à estrutur
 
 **Fonte:** Elaborada pelos autores (2026).
 
----
-
 ## 2.4.2 Lacunas Identificadas e Necessidades Futuras
 
 Durante o levantamento das informações, foram identificadas lacunas importantes que impactam diretamente a capacidade analítica da empresa:
@@ -226,19 +224,17 @@ Durante o levantamento das informações, foram identificadas lacunas importante
 - Dificuldade de rastreabilidade das informações;
 - Ausência de dados históricos organizados sobre interações com clientes.
 
----
-
 ## 2.4.3 Recomendações para Coleta de Novos Dados
 
 Para viabilizar plenamente a solução proposta, será necessário implementar, de forma concomitante ao desenvolvimento do sistema, rotinas estruturadas de coleta de dados relativos às visitas comerciais. O módulo de registro de visitas a ser desenvolvido deverá contemplar, no mínimo, os seguintes atributos: data da visita, cliente visitado, vendedor responsável, principais pontos discutidos, encaminhamentos definidos e status da visita (realizada ou pendente). A adoção desse módulo, aliada à centralização dos dados em repositório único e à implementação do processo de ETL, constitui condição necessária para que a aplicação proposta alcance os objetivos estratégicos definidos no plano de inteligência competitiva.
-
----
 
 ## 2.4.4 Conclusão
 
 O levantamento das fontes de dados evidencia que a empresa já possui uma base relevante de dados operacionais, principalmente por meio do ERP. No entanto, há limitações significativas relacionadas à fragmentação, falta de padronização e ausência de estrutura em algumas fontes.
 
 A consolidação e o tratamento adequado desses dados serão fundamentais para viabilizar a solução proposta, permitindo a transição para uma gestão orientada a dados e apoiando a tomada de decisão estratégica.
+
+---
 
 ## 2.5 Compliance de TI e Segurança da Informação
 
