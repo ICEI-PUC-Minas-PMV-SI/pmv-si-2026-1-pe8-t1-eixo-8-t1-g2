@@ -50,15 +50,11 @@ Dessa forma, os principais diferenciais competitivos observados são:
 
 Para analisar os ambientes interno e externo da organização foi realizada uma Análise SWOT.
 
-> **Ilustração 1 – Matriz SWOT**
->
-> Inserir imagem:
->
-> ```text
-> imagens/ilustracao-01-matriz-swot.png
-> ```
->
-> Fonte: Elaborada pelos autores (2026).
+**Ilustração 1 – Matriz SWOT**
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2026-1-pe8-t1-pmv-si-2026-1-pe8-t1-g2/blob/272e4a2e715ec9c08e8d6652d30177c4f2cbe88c/docs/images/Ilustra%C3%A7%C3%A3o%201.jpg" alt="Ilustração 1 – Matriz SWOT"/>
+
+Fonte: Elaborada pelos autores (2026).
 
 ---
 
@@ -78,15 +74,11 @@ O processo atual do fluxo de vendas é composto pelas seguintes etapas:
 6. Envio do pedido para a fábrica;
 7. Acompanhamento pós-venda.
 
-> **Ilustração 2 – Processo de Vendas**
->
-> Inserir imagem:
->
-> ```text
-> imagens/ilustracao-02-processo-vendas.png
-> ```
->
-> Fonte: Elaborada pelos autores (2026).
+**Ilustração 2 – Processo de Vendas**
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2026-1-pe8-t1-pmv-si-2026-1-pe8-t1-g2/blob/272e4a2e715ec9c08e8d6652d30177c4f2cbe88c/docs/images/Ilustra%C3%A7%C3%A3o%202.jpg" alt="Ilustração 2 – Processo de Vendas" width="600"/>
+
+Fonte: Elaborada pelos autores (2026).
 
 ### Processo de Previsão de Vendas Futuras
 
@@ -97,15 +89,11 @@ O fluxo atualmente utilizado para previsão de vendas segue as seguintes etapas:
 3. Atualização da tabela de projeções;
 4. Alimentação da planilha de previsão de vendas.
 
-> **Ilustração 3 – Processo de Previsão de Vendas Futuras**
->
-> Inserir imagem:
->
-> ```text
-> imagens/ilustracao-03-previsao-vendas.png
-> ```
->
-> Fonte: Elaborada pelos autores (2026).
+**Ilustração 3 – Processo de Previsão de Vendas Futuras**
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2026-1-pe8-t1-pmv-si-2026-1-pe8-t1-g2/blob/272e4a2e715ec9c08e8d6652d30177c4f2cbe88c/docs/images/Ilustra%C3%A7%C3%A3o%203.jpg" alt="Ilustração 3 – Processo de Previsão de Vendas Futuras" width="600"/>
+
+Fonte: Elaborada pelos autores (2026).
 
 ### Processo de Registro e Previsão de Visitas
 
@@ -116,15 +104,11 @@ O fluxo atual de visitas comerciais compreende:
 3. Realização das visitas aos clientes;
 4. Registro das informações em grupo corporativo do WhatsApp.
 
-> **Ilustração 4 – Processo de Registro e Previsão de Visitas**
->
-> Inserir imagem:
->
-> ```text
-> imagens/ilustracao-04-visitas-comerciais.png
-> ```
->
-> Fonte: Elaborada pelos autores (2026).
+**Ilustração 4 – Processo de Registro e Previsão de Visitas**
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2026-1-pe8-t1-pmv-si-2026-1-pe8-t1-g2/blob/272e4a2e715ec9c08e8d6652d30177c4f2cbe88c/docs/images/Ilustra%C3%A7%C3%A3o%204.jpg" alt="Ilustração 4 – Processo de Registro e Previsão de Visitas" width="800"/>
+
+Fonte: Elaborada pelos autores (2026).
 
 ### 1.3.2 Sistemas de Informação e Maturidade
 
