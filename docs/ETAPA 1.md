@@ -29,7 +29,7 @@ Com o objetivo de analisar o ambiente interno e externo da empresa, foi realizad
 
 **Ilustração 1 – Matriz SWOT**
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2026-1-pe8-t1-pmv-si-2026-1-pe8-t1-g2/blob/272e4a2e715ec9c08e8d6652d30177c4f2cbe88c/docs/images/Ilustra%C3%A7%C3%A3o%201.jpg" alt="Ilustração 1 – Matriz SWOT"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2026-1-pe8-t1-pmv-si-2026-1-pe8-t1-g2/blob/b06fa28e4c2de9438cc2feb0c5dfe50744e6bf33/docs/images/Ilustra%C3%A7%C3%A3o%201.png" alt="Ilustração 1 – Matriz SWOT" width="700"/>
 
 Fonte: Elaborada pelos autores (2026).
 
@@ -56,7 +56,7 @@ O processo atual do fluxo de vendas é representado na Ilustração 2, e suas et
 
 **Ilustração 2 – Processo de Vendas**
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2026-1-pe8-t1-pmv-si-2026-1-pe8-t1-g2/blob/272e4a2e715ec9c08e8d6652d30177c4f2cbe88c/docs/images/Ilustra%C3%A7%C3%A3o%202.jpg" alt="Ilustração 2 – Processo de Vendas" width="600"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2026-1-pe8-t1-pmv-si-2026-1-pe8-t1-g2/blob/272e4a2e715ec9c08e8d6652d30177c4f2cbe88c/docs/images/Ilustra%C3%A7%C3%A3o%202.jpg" alt="Ilustração 2 – Processo de Vendas" width="700"/>
 
 Fonte: Elaborada pelos autores (2026).
 
@@ -84,7 +84,7 @@ O processo atual do fluxo de registro e previsão de visitas futuras é apresent
 
 **Ilustração 4 – Processo de Registro e Previsão de Visitas**
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2026-1-pe8-t1-pmv-si-2026-1-pe8-t1-g2/blob/272e4a2e715ec9c08e8d6652d30177c4f2cbe88c/docs/images/Ilustra%C3%A7%C3%A3o%204.jpg" alt="Ilustração 4 – Processo de Registro e Previsão de Visitas" width="800"/>
+<img src="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2026-1-pe8-t1-pmv-si-2026-1-pe8-t1-g2/blob/272e4a2e715ec9c08e8d6652d30177c4f2cbe88c/docs/images/Ilustra%C3%A7%C3%A3o%204.jpg" alt="Ilustração 4 – Processo de Registro e Previsão de Visitas" width="1000"/>
 
 Fonte: Elaborada pelos autores (2026).
 
