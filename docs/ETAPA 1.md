@@ -2,53 +2,30 @@
 
 ## 1.1 Apresentação da Empresa
 
-A empresa selecionada para este estudo de caso é uma empresa de Representação Comercial voltada para a venda de produtos químicos para tratamento de água de piscinas. A empresa opera no modelo B2B (*Business to Business*), intermediando a venda entre a fábrica e as revendas (lojas de piscinas, materiais de construção, produtos de limpeza e distribuidoras).
+A empresa selecionada para este estudo de caso é uma empresa de Representação Comercial voltada para a venda de produtos químicos para tratamento de água de piscinas. A empresa opera no modelo B2B (Business to Business), intermediando a venda entre a fábrica e as revendas (lojas de piscinas, materiais de construção, produtos de limpeza e distribuidoras).
 
-A empresa é uma organização de pequeno porte sediada em Belo Horizonte, Minas Gerais, e possui três colaboradores, sendo constituída pelo proprietário e dois vendedores. Com mais de trinta e cinco anos de atuação no mercado, a empresa possui amplo conhecimento sobre grande parte das lojas que trabalham com produtos para piscinas no estado de Minas Gerais.
+A empresa é uma organização de pequeno porte sediada em Belo Horizonte, Minas Gerais e possui 3 colaboradores, sendo constituída pelo proprietário e dois vendedores. Com mais de trinta e cinco anos de atuação no mercado, a empresa possui conhecimento sobre grande parte das lojas que trabalham com produtos de piscinas no estado de Minas Gerais. 
 
-O processo da empresa envolve a negociação de vendas com os clientes, bem como a realização de visitas recorrentes. Nessas visitas são conduzidos treinamentos sobre os produtos, avaliadas as necessidades das lojas, sugeridas melhorias, verificado o nível de estoque e analisadas as condições do mercado. Além disso, essas interações contribuem para o fortalecimento da parceria com os clientes.
+O processo da empresa envolve a negociação de vendas com os clientes, bem como a realização de visitas recorrentes. Nessas visitas são conduzidos treinamentos sobre os produtos, avaliadas as necessidades das lojas, sugeridas possíveis melhorias, verificado o nível de estoque e analisadas as condições do mercado. 
 
-A empresa utiliza um sistema SaaS (*Software as a Service*) de terceiros para realizar o controle das vendas. O sistema foi contratado em julho de 2014 e, desde então, todo o fluxo de vendas da organização vem sendo armazenado em sua base de dados.
+Além disso, essas interações contribuem para o fortalecimento e estreitamento da parceria com os clientes.
+A empresa possui um SaaS (Software as a Service) de terceiros para fazer o controle das vendas, que foi contratado em julho de 2014, sendo que, a partir desta data, todo o fluxo de vendas da empresa vem sendo armazenado na base de dados do software. 
 
-### Justificativa da Escolha
-
-Uma empresa do ramo de Representação Comercial foi escolhida por apresentar oportunidades relevantes para implementação de soluções tecnológicas voltadas à otimização e automação de processos de negócio. Entre os benefícios esperados destacam-se:
-
-* Maior controle sobre os dados de vendas;
-* Automação de processos operacionais;
-* Melhor acompanhamento do desempenho comercial;
-* Apoio à tomada de decisões baseada em dados.
+**Justificativa da Escolha:** Uma empresa do ramo da Representação Comercial é uma escolha estratégica para o projeto, tendo em vista a possibilidade de implementar soluções assertivas e tecnológicas voltadas à otimização e automação do modelo de negócio, trazendo vantagens competitivas para a empresa, como o maior controle dos dados de vendas e fluxos operacionais internos.
 
 ---
 
+
 ## 1.2 Análise de Mercado
 
-Atualmente o Brasil ocupa a segunda posição mundial no mercado de piscinas, ficando atrás apenas dos Estados Unidos. Esse cenário evidencia um mercado de grande potencial e elevada competitividade.
+Atualmente o Brasil é o segundo maior mercado de piscinas do mundo, ficando atrás somente dos Estados Unidos (ANAPP, 2025). Assim, o mercado de piscinas brasileiro demanda alta competência e desperta atenção dos muitos lojistas. Dessa forma, torna-se desafiador para as empresas que atuam nesse mercado tanto se organizarem adequadamente quanto atender, com excelência, a todo o seu potencial de demanda.
 
-O mercado de distribuição e representação de produtos químicos para piscinas e limpeza caracteriza-se pela presença de:
+O mercado de distribuição e representação de produtos químicos para piscinas e limpeza no Brasil é fragmentado, com a presença de grandes distribuidoras nacionais, representantes regionais de médio e pequeno porte e, cada vez mais, plataformas de e-commerce especializadas. A competição se dá principalmente em preço, prazo de entrega, disponibilidade de estoque e suporte técnico.
 
-* Grandes distribuidoras nacionais;
-* Representantes regionais de médio porte;
-* Pequenos representantes comerciais;
-* Plataformas especializadas de comércio eletrônico.
+Além da concorrência entre lojas que vendem o mesmo produto, também existe a concorrência entre representantes da mesma localidade que trabalham com outras marcas de produtos químicos para piscinas. Dessa forma, o diferencial competitivo reside, além do principal que é a qualidade do produto vendido, na proximidade com o cliente, na agilidade de atendimento e no suporte técnico consultivo. 
 
-A competição ocorre principalmente por meio dos seguintes fatores:
+Com o objetivo de analisar o ambiente interno e externo da empresa, foi realizada uma Análise SWOT. Os resultados dessa análise são apresentados na Ilustração 1, por meio da matriz SWOT elaborada para o contexto da empresa estudada.
 
-* Preço;
-* Prazo de entrega;
-* Disponibilidade de estoque;
-* Suporte técnico.
-
-Além da concorrência entre estabelecimentos que comercializam os mesmos produtos, existe também a concorrência entre representantes que atuam com marcas diferentes na mesma região.
-
-Dessa forma, os principais diferenciais competitivos observados são:
-
-* Qualidade dos produtos comercializados;
-* Proximidade com os clientes;
-* Agilidade no atendimento;
-* Capacidade de oferecer suporte técnico consultivo.
-
-Para analisar os ambientes interno e externo da organização foi realizada uma Análise SWOT.
 
 **Ilustração 1 – Matriz SWOT**
 
@@ -58,21 +35,24 @@ Fonte: Elaborada pelos autores (2026).
 
 ---
 
+
 ## 1.3 Análise de Processos e Sistemas
 
 O desenvolvimento deste projeto permitirá a transição de uma gestão predominantemente descritiva para uma cultura orientada a dados, possibilitando previsões de vendas mais precisas e a atualização de processos atualmente executados de forma manual.
 
+
 ### 1.3.1 Mapeamento de Processos (BPMN)
 
-O processo atual do fluxo de vendas é composto pelas seguintes etapas:
+O processo atual do fluxo de vendas é representado na Ilustração 2, e suas etapas são descritas a seguir:
 
-1. Contato da empresa com o cliente para levantamento de necessidades;
-2. Recebimento do orçamento solicitado;
-3. Consulta de tabelas de preços e descontos;
-4. Registro do orçamento no ERP;
-5. Confirmação do pedido pelo cliente;
-6. Envio do pedido para a fábrica;
-7. Acompanhamento pós-venda.
+*	**Contato da Empresa ao Cliente:** A empresa entra em contato com o cliente para verificação de possível orçamento via e-mail ou Whatsapp;
+*	**Recebimento Orçamento:** O cliente envia os itens e quantidades que deseja orçamento;
+*	**Consulta de Tabela:** O vendedor consulta planilhas de Excel para verificar preços do cliente e descontos vigentes;
+*	**Registro do Orçamento:** Lançamento do orçamento no sistema Mercos (ERP utilizado pela empresa);
+*	**Confirmação do pedido pelo Cliente:** O cliente envia por Whatsapp ou e-mail a confirmação do pedido / ordem de compra;
+*	**Envio à Fábrica:** O pedido é repassado ao sistema do fabricante para faturamento;
+*	**Acompanhamento do pós-venda:** Verificação de data de faturamento do pedido e se todas as mercadorias foram faturadas, e se a mercadoria chegou de forma correta ao cliente.
+
 
 **Ilustração 2 – Processo de Vendas**
 
@@ -80,14 +60,13 @@ O processo atual do fluxo de vendas é composto pelas seguintes etapas:
 
 Fonte: Elaborada pelos autores (2026).
 
-### Processo de Previsão de Vendas Futuras
+O processo atual do fluxo de previsão de vendas futuras é apresentado na Ilustração 3, e suas etapas são descritas a seguir:
 
-O fluxo atualmente utilizado para previsão de vendas segue as seguintes etapas:
+*	**Extração de vendas do último ano no Mercos:** Através do ERP, é extraído um arquivo .xlsx com os dados de vendas passadas;
+*	**Tratamento do arquivo:** O arquivo é tratado e por meio de tabelas dinâmicas do Excel, é possível ver a progressão de compra de cada cliente;
+*	**Atualização da tabela de vendas:** A partir da frequência de compra do cliente e potencial de compra, é determinado quanto é esperado que ele compre no mês futuro;
+*	**Alimentação da planilha de previsão de vendas:** A partir das compras realizadas no mês previsto, a planilha de previsão vai sendo preenchidas com as vendas realizadas.
 
-1. Extração das vendas do último ano no ERP;
-2. Tratamento dos dados em planilhas Excel;
-3. Atualização da tabela de projeções;
-4. Alimentação da planilha de previsão de vendas.
 
 **Ilustração 3 – Processo de Previsão de Vendas Futuras**
 
@@ -95,14 +74,13 @@ O fluxo atualmente utilizado para previsão de vendas segue as seguintes etapas:
 
 Fonte: Elaborada pelos autores (2026).
 
-### Processo de Registro e Previsão de Visitas
+O processo atual do fluxo de registro e previsão de visitas futuras é apresentado na Ilustração 4, e suas etapas são descritas a seguir:
 
-O fluxo atual de visitas comerciais compreende:
+*	**Planejamento das Rotas de Visitas do Ano:** No início de cada ano, é feita uma previsão de visita às regiões do estado, para que a cada 2 meses os lojistas sejam visitados para firmar relacionamentos e novas parcerias;
+*	**Definição da Rota de Visita da Semana:** Uma semana antes, o vendedor define as lojas da região que será atendida, fazendo o agendamento da visita com os clientes;
+*	**Realização das visitas:** Durante a semana o vendedor (representante) visita os lojistas da região determinada pela rota;
+*	**Registro de visitas:** Após a visita é registrado em um grupo no whatsapp o que ocorreu na visita, quais são os pontos que o representante precisa dar um retorno da loja, e o que foi apresentado de novidade ao lojista.
 
-1. Planejamento anual das rotas;
-2. Definição semanal das visitas;
-3. Realização das visitas aos clientes;
-4. Registro das informações em grupo corporativo do WhatsApp.
 
 **Ilustração 4 – Processo de Registro e Previsão de Visitas**
 
@@ -110,82 +88,42 @@ O fluxo atual de visitas comerciais compreende:
 
 Fonte: Elaborada pelos autores (2026).
 
+
 ### 1.3.2 Sistemas de Informação e Maturidade
 
-A empresa utiliza o ERP Mercos, uma plataforma SaaS voltada para representantes comerciais que centraliza:
+A empresa utiliza o sistema ERP Mercos ERP, uma plataforma SaaS (Software as a Service) voltada para representantes comerciais que centraliza a gestão de pedidos, clientes e relatórios em um único ambiente acessível via web. A ferramenta permite a elaboração de orçamentos, o registro de pedidos de clientes e a geração de relatórios comerciais, contribuindo para a organização das operações de vendas.
 
-* Gestão de clientes;
-* Gestão de pedidos;
-* Emissão de orçamentos;
-* Relatórios comerciais.
+Além dessas funcionalidades operacionais, o sistema também possibilita a extração de alguns dados relacionados às vendas, que podem ser utilizados para análise e acompanhamento do desempenho comercial. Entre os principais relatórios disponíveis, destacam-se:
 
-Entre os principais relatórios disponíveis destacam-se:
+*	**Carteira de clientes:** contém informações sobre as lojas presentes na carteira da empresa, incluindo dados como nome, CNPJ, cidade, estado e informações adicionais relevantes sobre cada cliente;
+*	**Relatório de vendas:** apresenta informações detalhadas das vendas realizadas, como data da venda, loja que realizou a compra e valor total vendido;
+*	**Produtos por pedido:** relatório que detalha os itens comercializados em cada pedido, contendo dados como código do produto, nome do produto, quantidade adquirida, valor unitário e valor total.
 
-#### Carteira de Clientes
+Apesar dessas funcionalidades, observa-se que os recursos gerenciais voltados à análise estratégica e à previsão de vendas ainda são limitados. Dessa forma, embora o ERP seja utilizado para registrar e organizar as transações comerciais, os dados disponíveis não são plenamente explorados para subsidiar a tomada de decisões e o planejamento comercial.
 
-Contém informações como:
-
-* Nome;
-* CNPJ;
-* Cidade;
-* Estado;
-* Dados cadastrais complementares.
-
-#### Relatório de Vendas
-
-Disponibiliza informações relacionadas a:
-
-* Data da venda;
-* Cliente comprador;
-* Valor total da venda.
-
-#### Produtos por Pedido
-
-Apresenta:
-
-* Código do produto;
-* Nome do produto;
-* Quantidade vendida;
-* Valor unitário;
-* Valor total.
-
-Apesar dessas funcionalidades, os recursos analíticos e preditivos ainda são limitados, exigindo o uso complementar de planilhas eletrônicas.
-
-Outro ponto crítico refere-se ao registro das visitas comerciais, atualmente realizado apenas por meio de mensagens em grupos do WhatsApp, dificultando a rastreabilidade e recuperação histórica das informações.
+Outro ponto relevante diz respeito ao registro das visitas comerciais. Atualmente, essas informações não são armazenadas em um sistema estruturado ou planilha de controle. Os registros são realizados apenas em um grupo de WhatsApp, que funciona informalmente como um bloco de notas. Como consequência, muitos desses registros acabam se perdendo ao longo do tempo, dificultando o acompanhamento histórico das interações com os clientes. Essa situação evidencia a necessidade de maior controle e organização dessas informações, incluindo o registro estruturado de dados como a data das visitas realizadas e os principais pontos discutidos em cada atendimento.
 
 
 ### 1.3.3 Informações Técnicas
 
-* **ERP utilizado:** Mercos ERP;
-* **Armazenamento de dados:** banco de dados em nuvem do Mercos e armazenamento local.
+* **ERP utilizado:** mercos.com;
+* **Armazenamento de dados:** Banco de dados em nuvem do Mercos e armazenamento local em computador.
 
 
 ### 1.3.4 Gargalos Operacionais
 
-Os principais gargalos identificados foram:
-
-* Atualização manual de planilhas;
-* Tratamento manual dos dados;
-* Ausência de modelos preditivos;
-* Dificuldade em antecipar demandas sazonais;
-* Dependência de conhecimento tácito para planejamento comercial.
+O principal gargalo identificado está relacionado à atualização e ao tratamento das tabelas utilizadas para análise das vendas. Atualmente, a ausência de um sistema preditivo impede que a empresa se antecipe a variações sazonais de demanda, como o aumento da procura por aquecedores durante o período de inverno. Como consequência, podem ocorrer perdas de oportunidades comerciais decorrentes da falta de planejamento antecipado. 
 
 
 ### 1.3.5 Potencial de Melhoria
 
-A implementação de soluções de Business Intelligence permitirá:
+Existe uma oportunidade clara de melhoria por meio da utilização de bibliotecas de manipulação de dados e modelos estatísticos para automatizar processos de análise, como o cálculo de metas e a previsão anual de vendas. Além disso, torna-se recomendável a implementação de um módulo estruturado para coleta e armazenamento de dados de visitas comerciais, permitindo a centralização dessas informações.
 
-* Automatização da análise de vendas;
-* Previsão de demanda futura;
-* Definição automática de metas;
-* Centralização das informações de visitas;
-* Redução de atividades manuais.
+A adoção desse tipo de solução possibilitaria diversos benefícios gerenciais, tais como:
 
-Entre os benefícios esperados destacam-se:
+* **Medição da eficiência comercial,** por meio do acompanhamento da frequência e dos resultados das visitas;
+* **Gestão da carteira de clientes inativos,** permitindo identificar clientes que compram regularmente, mas que não recebem visitas há um longo período;
+* **Histórico de relacionamento com clientes,** centralizando informações relevantes discutidas durante as visitas, como feedbacks sobre preços, marcas ou níveis de estoque;
+* **Roteirização logística das visitas,** possibilitando otimizar deslocamentos dentro do estado de Minas Gerais por meio do agrupamento de clientes por proximidade geográfica, reduzindo custos de viagem e tempo de deslocamento.
 
-* **Medição da Eficiência Comercial,** avaliação da frequência de visitas e seus resultados;
-* **Gestão de Clientes Inativos,** identificação de clientes com potencial de compra que não recebem acompanhamento adequado;
-* **Histórico de Relacionamento,** centralização das informações discutidas durante visitas comerciais;
-* **Roteirização Logística,** otimização dos deslocamentos por meio do agrupamento geográfico de clientes.
-
-A maturidade digital da empresa pode ser classificada como **intermediária**, pois já existe utilização de sistemas informatizados para gestão operacional. Entretanto, ainda há espaço significativo para evolução no uso estratégico dos dados, especialmente em análises preditivas, planejamento comercial e gestão estruturada das visitas.
+Nesse contexto, a maturidade digital da empresa pode ser classificada como intermediária, pois já existe a utilização de um sistema informatizado para gestão de pedidos e clientes. No entanto, ainda há espaço significativo para evolução no uso estratégico dos dados, especialmente no que se refere à análise preditiva, ao planejamento comercial e à gestão estruturada das visitas aos clientes.
